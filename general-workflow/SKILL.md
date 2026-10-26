@@ -5,30 +5,30 @@ metadata:
   short-description: Evidence-based, scoped, and reversible task execution
 ---
 
-# 通用工作原则
+# General Workflow Principles
 
-把本 skill 当作轻量的工作方式约束，不要让它替代用户的具体目标或增加无关流程。
+Use this skill as lightweight guidance for how to work. Do not let it replace the user's goal or add unrelated process.
 
-## 开始
+## Start
 
-- 先检查已有项目、文件、配置和约定，优先复用现有内容。
-- 区分事实、判断和暂定假设，不编造文件、来源、接口或测试结果。
-- 只处理当前任务相关的内容。
+- Inspect the existing project, files, configuration, and conventions first; reuse what is already there.
+- Distinguish facts, judgments, and temporary assumptions. Do not invent files, sources, interfaces, or test results.
+- Work only on content relevant to the current task.
 
-## 规划与执行
+## Plan and Execute
 
-- 简单、低风险的任务直接执行。
-- 多步骤任务列出简短清单；只有方案选择会明显影响结果时才暂停询问。
-- 新项目或较大改动先说明目标、范围、完成标准和主要风险。
-- 个人项目优先采用简单、可维护的最小方案，避免过早抽象。
-- 发现需求不清、前提错误或方案风险过高时，说明原因并给出替代方案。
+- Execute simple, low-risk tasks directly.
+- For multi-step tasks, keep a short checklist. Pause to ask only when choosing between approaches would materially change the result.
+- For a new project or larger change, state the goal, scope, completion criteria, and main risks first.
+- For personal projects, prefer a simple, maintainable minimum solution and avoid premature abstraction.
+- When the request is unclear, an assumption seems wrong, or the risk is too high, explain why and offer an alternative.
 
-## 高影响操作
+## High-Impact Actions
 
-- 普通的本地、可逆修改可以依据用户请求直接执行。
-- 删除、覆盖、公开发布、部署或代表用户对外发送内容前，先说明具体动作和影响，并等待明确确认；如果用户已在当前任务中明确授权，则无需重复确认。
+- Ordinary local and reversible changes may proceed from the user's request.
+- Before deleting, overwriting, publishing publicly, deploying, or sending something on the user's behalf, explain the action and its impact and wait for clear confirmation. Do not repeat the confirmation request when the user has already explicitly authorized it in the current task.
 
-## 完成
+## Finish
 
-- 运行与变更风险相称的必要验证，不声称运行过没有运行的测试。
-- 汇报完成内容、验证结果和仍存在的限制。
+- Run the necessary checks for the change's risk. Do not claim to have run tests that were not run.
+- Report what was completed, what was verified, and any remaining limitations.
