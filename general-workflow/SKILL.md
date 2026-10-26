@@ -1,6 +1,6 @@
 ---
 name: general-workflow
-description: Apply practical working rules for scoped implementation tasks: inspect existing context first, separate facts from assumptions, plan proportionally, challenge unclear or risky requests, and verify irreversible actions before execution.
+description: "Apply practical working rules for scoped implementation tasks: inspect existing context first, separate facts from assumptions, plan proportionally, challenge unclear or risky requests, and verify irreversible actions before execution."
 metadata:
   short-description: Evidence-based, scoped, and reversible task execution
 ---
